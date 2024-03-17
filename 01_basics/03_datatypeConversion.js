@@ -28,3 +28,41 @@ console.log(typeof convertintoString);
 //null,undefined,any number, boolean all can be converted into string 
 
 /* ***************************Operations************************** */
+
+//negative
+let val=8
+let negval=-val
+// console.log(negval);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3); //Power//8
+// console.log(2%2);
+// console.log(2/2);
+
+let str1="Mohinee"
+let str2=" Jadhav"
+let str3=str1+str2
+console.log(str3);
+
+// console.log(1+"2")//12
+// console.log("1"+2);//12
+// console.log("1"+"2");//12
+// console.log("1"+2+2);//122
+// console.log(2+3+"5");//55
+
+// console.log(null>0);//false
+// console.log(null==0);//false
+// console.log(null>=0);//true
+
+// the reason is that euality check == and comparision operator >, <, <=, >= work differently 
+// Comapator conver null to a number treating it as 0 thats why null>0 is false and null>=0 is true
+
+console.log(undefined>0);//false
+console.log(undefined==0);//false
+console.log(undefined>=0);//false
+
+//=== ..checks values as well as datatype
+
+console.log("2"==2); //true
+console.log("2"===2);//false
