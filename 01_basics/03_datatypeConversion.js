@@ -51,6 +51,9 @@ console.log(str3);
 // console.log("1"+2+2);//122
 // console.log(2+3+"5");//55
 
+
+/* ************************** Comparison ***********************************/
+
 // console.log(null>0);//false
 // console.log(null==0);//false
 // console.log(null>=0);//true
