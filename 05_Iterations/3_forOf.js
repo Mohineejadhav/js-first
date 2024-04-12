@@ -43,6 +43,10 @@ const myObject = {
     game2: 'Spiderman'
 }
 
+// for(const key of myObject){
+//     console.log(myObject[key]); //myObject is not iterable
+// }
+
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value); //error => myObject is not iterable
                                       // We can cot iterate object like this
