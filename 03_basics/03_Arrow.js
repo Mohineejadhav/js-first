@@ -34,7 +34,7 @@ coffee()
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Arrow Function @@@@@@@@@@@@@@@@@@
 
-/****VIMP */
+/********************VIMP******************************/
 const juice = (price1,price2) => {//explicit return
     return price1+price2;
 }
